@@ -1,0 +1,16 @@
+{
+  "name": "react-elise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-react": "^6.16.0"
+  },
+  "scripts": {
+      "build": "babel js -d build --presets react",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

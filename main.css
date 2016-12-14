@@ -1,0 +1,52 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url('Helvetica LT 43 Light Extended.ttf');
+}
+.header{
+    background: #3399ff
+;
+    color:white;
+    margin: 0px;
+    width:250px;
+    height: 100%;
+}
+.header-name{
+    border-bottom: solid 1px white;
+    margin-left:10%;
+    padding-top: 40%;
+    font-size: 40px;
+    margin-right:10%;
+}
+.header-title{
+    margin-top:5px;
+   width:100%;
+   margin-left:10%;
+   font-size:20px;
+}
+html,body{
+    font-family: myFirstFont;
+    margin:0;
+    height:100%;
+}
+.sidebar-item{
+    margin-left:10%;
+    
+}
+.sidebar-item-container{
+    color:white;
+    margin: 0px;
+    padding:10px 0px;
+    
+}
+.sidebar-item a{
+    cursor:pointer;
+    text-decoration:none;
+}
+.sidebar{
+    margin-top: 40px;
+}
+.selected{
+    background: white;
+    color: #3399ff
+;
+}
